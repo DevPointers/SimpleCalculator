@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <form action="/view" name="calculator" method="POST">
+            <div>
+                <label for="num1">Enter number 1:</label>
+                <input type="number" name="num1" required>
+            </div>
+            <div>
+                <label for="num2">Enter number 2:</label>
+                <input type="number" name="num2" required>
+            </div>
+            <div>
+                <input type="submit" name="operation" value="add">      
+                <input type="submit" name="operation" value="sub">
+                <input type="submit" name="operation" value="mul">
+                <input type="submit" name="operation" value="div">
+            </div>
+        </form>
+        <h3 id="result"></h3>
+    </body>
+</html>

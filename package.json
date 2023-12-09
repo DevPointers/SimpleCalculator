@@ -1,0 +1,14 @@
+{
+  "name": "simplecalculator",
+  "version": "1.0.0",
+  "description": "Calculator with basic operations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DevPointers",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
